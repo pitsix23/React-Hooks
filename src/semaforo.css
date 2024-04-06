@@ -1,0 +1,63 @@
+.semaphor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 580px;
+  margin:auto;
+}
+
+.black-rectangle {
+  background-color: black;
+  width: 121px;
+  height: 365px;
+}
+
+.pedestrian-signal-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 450px;
+}
+
+.pedestrian-signal-container img {
+  width: 200px;
+  height: 200px;
+}
+.light {
+  width: 100px;
+  height: 100px;
+  border-radius: 70%;
+  margin: 10px;
+}
+
+.light[data-color='red'] {
+  background-color: red;
+}
+
+.light[data-color='yellow'] {
+  background-color: yellow;
+}
+
+.light[data-color='green'] {
+  background-color: green;
+}
+
+.light[data-color='blue'] {
+  background-color: blue;
+}
+
+.light[data-color='purple'] {
+  background-color: purple;
+}
+
+.light[data-color='orange'] {
+  background-color: orange;
+}
+
+.light[data-color='pink'] {
+  background-color: pink;
+}
+
+.light.active {
+  box-shadow: 0 0 40px rgb(252, 255, 216);
+}
