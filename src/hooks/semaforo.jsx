@@ -23,6 +23,7 @@ const Semaphor = () => {
               }
             }}
           />
+          
           <button
             className={`light ${color === 'yellow' || lastSelectedColor === 'yellow' ? 'active' : ''}`}
             data-color="yellow"
